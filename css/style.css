@@ -1,0 +1,487 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	width: 100%;
+	font-family: 'Lato';
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5{
+	font-family: Lato;
+}
+
+a a:hover{
+	text-decoration: none;
+}
+
+/********************************************************/
+/*******************GLOBAL CSS STARTS********************/
+/********************************************************/
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.row{
+	width: 100%;
+	float: left;
+}
+
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+
+.col-md-4{
+	width: 33.33%;
+	float: left;
+}
+
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+
+/********************************************************/
+/*******************GLOBAL CSS ENDS**********************/
+/********************************************************/
+
+
+/*******************************************************/
+/*******************HEADER CSS STARTS*******************/
+/*******************************************************/
+
+.header-section{
+	width: 100%;
+	float: left;
+	background-color: #f6f9f9;
+	padding: 15px 0px ;
+}
+
+.logo{
+	width: 100%;
+}
+.main-menu{
+    width: 100%;
+    float: left;
+    text-decoration: none;
+}
+
+.main-menu ul{
+	display: block;
+
+}
+.main-menu ul li{
+	display: inline-block;
+	list-style: none
+}
+.main-menu ul li a{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+/*******************************************************/
+/*******************HEADER CSS END**********************/
+/*******************************************************/
+
+
+/*******************************************************/
+/*******************BANNER CSS START********************/
+/*******************************************************/
+.banner-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: url("../images/Image.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+.banner{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 80px 0px 0px;
+}
+
+.banner h1{
+	color: #fff;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+.banner .divider{
+	width: 40%;
+	height: 2px;
+	background: #15a4fa;
+	margin: 50px auto 20px;
+}
+
+.banner p{
+	/*color: #fff;
+	letter-spacing: .5px;
+	margin-bottom: 50px;*/
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+
+.banner .btn{
+	padding:15px 35px; 
+	
+	color:#fff;
+	border: 1px solid #15a4fa;
+	background: transparent;
+	border-radius: 3px;
+	margin-bottom: 30px;
+	font-size: 14px; 
+	text-decoration: none;
+}
+
+.banner .btn:hover{
+	transition: 1s;
+	background: #15a4fa
+}
+
+.banner .arrow {
+	width: 100%;
+	 float: left;
+	 margin-top: 40px;
+}
+
+.banner .arrow .arrow-icon{
+	margin-top: 120px;
+	/*margin-bottom: 20px;*/
+	transform:translate(0%, 100%); 
+}
+
+/*******************************************************/
+/*******************BANNER CSS END**********************/
+/*******************************************************/
+
+
+/*******************************************************/
+/*******************SIMPLE DESIGN START*****************/
+/*******************************************************/
+
+.simple-design{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	background: #f6f9f9;
+	text-align: center;
+}
+
+.simple-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.simple-inner h1{
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 57px;
+	color: #000;
+	margin-bottom: 15px;
+}
+
+.simple-inner p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999;
+}
+
+
+
+
+/*******************************************************/
+/*******************SIMPLE DESIGN END*******************/
+/*******************************************************/
+
+
+/*******************************************************/
+/*******************SOCIAL ICONS STARTS*****************/
+/*******************************************************/
+
+.social-icon{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 60px 0px;
+}
+
+.social-icon .icons-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.social-icon .icons-inner img{
+	margin-bottom: 15px;
+}
+
+.social-icon .icons-inner h4{
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 35px;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.social-icon .icons-inner p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999;
+}
+
+/*******************************************************/
+/*******************SOCIAL ICONS END********************/
+/*******************************************************/
+
+
+
+
+/*******************************************************/
+/*************PORTFOLIO SECTION START*******************/
+/*******************************************************/
+
+.portfolio-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+	text-align: center;
+}
+.portfolio-section .title{
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.portfolio-section .title h1{
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 57px;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+.portfolio-section .title p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999;
+}
+.portfolio-inner{
+	float: left;
+    position: relative;
+}
+
+.portfolio-inner img{
+	margin-bottom: 15px;
+}
+.portfolio-inner .port-hover{
+	width: 100%;
+    height: 92.5%;
+    position: absolute;
+    top: 0;
+    float: left;
+    background: rgb(25,154,234,.6);
+    display: none;
+}
+
+.portfolio-inner:hover .port-hover{
+	display: block;
+	transition: 1s;
+}
+
+
+.port-hover ul{
+	position: absolute;
+    top: 44%;
+    left: 38%;
+}
+
+.port-hover ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+.port-hover ul li a{
+
+}
+.port-hover ul li a img{
+	margin-right: 10px;
+
+}
+
+
+
+
+
+/*******************************************************/
+/************PORTFOLIO SECTIONE END*********************/
+/*******************************************************/
+
+
+/*******************************************************/
+/*******************STAY WITH US START******************/
+/*******************************************************/
+
+.stay-with-us{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+	text-align: center;
+	background: url("../images/BG.png");
+}
+
+.stay-inner h1{
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 57px;
+	color: #ffffff;
+	margin-bottom: 8px;
+}
+
+.stay-inner p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999999;
+	margin-bottom: 23px;
+}
+
+.form-box{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.stay-inner .form-box .information{
+	margin-bottom: 15px;
+
+}
+.stay-inner .form-box .information .information-box{
+	padding: 10px;
+	width: 40%;
+	border: 1px solid #999999;
+	border-radius: 3px;
+	color: #999999;
+	background: transparent;
+	
+}
+
+.stay-inner .form-box .information .information-box:focus{
+	outline: none;
+}
+
+.stay-inner .form-box .information .Message-box{
+	padding: 10px 40px 70px 7px;
+    width: 37.5%;
+    border: 1px solid #999999;
+    border-radius: 3px; 
+    color: #999999;
+    background: transparent;
+}
+
+.stay-inner .form-box .information .Message-box:focus{
+	outline: none;
+}
+
+.check-box{
+	float: left;
+	width: 100%;
+	margin-left: 124px;
+	margin-top: 5px;
+}
+
+.subs{
+	color: #999999;
+	margin-left: 5px;
+}
+
+.button{
+	float: left;
+	margin-left: 142px;
+	margin-top: 5px;
+}
+
+.btn{
+	padding: 8px 32px;
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+	color: #999999;
+	text-decoration:none;
+	font-weight: 700; 
+}
+.btn:hover{
+	transition: 1s;
+	background: #15a4fa
+}
+
+
+ 
+
+/*******************************************************/
+/*******************STAY WITH US END********************/
+/*******************************************************/
+
+
+/*******************************************************/
+/*******************FOOTER START************************/
+/*******************************************************/
+
+.footer{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+	padding: 15px 0px ;
+}
+
+.copy-right{
+	color:  #999999;
+	padding: 20px;
+
+}
+
+
+.social .fa{
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+.social ul{
+ float: right;
+ margin-top: 20px;
+}
+
+.social ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.social ul li a{
+	background: #15a4fa;
+	padding: 15px;
+}
+
+
+/*******************************************************/
+/*******************FOOTER END**************************/
+/*******************************************************/
